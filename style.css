@@ -1,0 +1,57 @@
+body,html {
+    height: 100%;
+    margin: 0%; /*start edges from zero*/
+    
+}
+
+h1{font-size: 20px;} /*make default font of h1 to be 20px */
+
+.background{
+    background-image: url('background.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-position: relative; 
+}
+.top {
+    text-align: center;
+    margin: 0 auto; /*hight start from 0*/
+    height: 100px;
+    width: 250px;
+} 
+img {
+    height: 100%;
+    width: 100%;
+    /*above make height & width of image in class not in page to be 100% of class not page*/
+}
+.middle {
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.email{
+    text-align: center;
+    font-size: 18px;
+    position: fixed;
+    bottom: 90;
+    width: 100%;
+    color: darkgoldenrod
+}
+.buttom {
+    text-align: center;
+    font-size: 18px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#demo99{font-size: 100%; font-family: monospace;}
+
+a:visited {
+    color: coral
+}
+
+a:hover {
+    color: blue
+    }
