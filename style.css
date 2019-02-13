@@ -7,7 +7,7 @@ body,html {
 h1{font-size: 20px;} /*make default font of h1 to be 20px */
 
 .background{
-    background-image: url('background.jpg');
+    background-image: url('Background.jpg');
     height: 100%;
     width: 100%;
     background-size: cover;
